@@ -9,6 +9,7 @@ body{
     display: flex;
     padding: 0;
     margin: 0;
+    overflow: hidden;
    
 }
 
@@ -24,13 +25,18 @@ body{
 }
 
 h1{
-    color: black;
-    font-size: 80px;
+    color: white;
+    font-size: 9vh;
+}
+
+.logo{
+    max-width: 25vh;
+    min-width: 25vh;
 }
 .background{
     height: 40vh;
     width: 100%;
-    background: rgba(256, 256, 256, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +81,7 @@ legend, .form-container, .button {
 .log-in{
     display: flex;
     height: 30vh;
-    background-color: #3B7A57;
+    background-color: #2B5940;
     color: white;
 }
 
@@ -89,7 +95,6 @@ legend, .form-container, .button {
 .form-row{
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
 }
 
 label{
@@ -120,10 +125,21 @@ a{
     color: aquamarine;
 }
 
+input{
+    border: none;
+    border-radius: 5px;
+    height: 3vh;
+    font-size: 2vh;
+}
+
 input:invalid{
     border: 2px red solid;
 }
 
 input:valid{
-    border: 2px #3B7A57 solid;
+    border: 2px #2B5940 solid;
+}
+
+input:focus{
+    border: 2px blue solid;
 }
