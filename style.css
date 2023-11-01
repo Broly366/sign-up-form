@@ -14,7 +14,9 @@ body{
 
 .left-side{
     width: 40%;
-    background-image: url(imgs/Image\ Background\ Orange\ Minimal\ Phone\ Wallpaper.png);
+    background-image: url(imgs/foglie.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     font-family: MPLUS1p-light;
     display: flex;
     justify-content: center;
@@ -22,13 +24,13 @@ body{
 }
 
 h1{
-    color: white;
+    color: black;
     font-size: 80px;
 }
 .background{
-    height: 350px;
+    height: 40vh;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(256, 256, 256, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,4 +38,92 @@ h1{
 
 .right-side{
     width: 60%;
+}
+
+
+.top,
+.form,
+.log-in{
+    padding-left: 20px;
+    font-family: MPLUS1p-light;
+}
+
+.top{
+    font-size: 2vh;
+    display: flex;
+    align-items: end;
+}
+
+.form{
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    color: black;
+}
+
+legend, .form-container, .button {
+    margin: 30px 0; /* Add margin above and below each element */
+}
+
+.log-in{
+    font-size: 2vh;
+}
+
+.top,
+.log-in{
+    display: flex;
+    height: 30vh;
+    background-color: #3B7A57;
+    color: white;
+}
+
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 40vw;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label{
+    font-weight: bold;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #FFBF00;
+}
+
+legend{
+    margin-top: 0;
+}
+input{
+    width: 200px;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+input:invalid{
+    border: 2px red solid;
+}
+
+input:valid{
+    border: 2px #3B7A57 solid;
 }

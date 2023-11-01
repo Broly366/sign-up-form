@@ -9,38 +9,51 @@
 <body>
    <div class="left-side">
     <div class="background">
-        <h1>BROLY366</h1>
+        <img src="imgs/logo.png" alt="mountain logo">
+        <h1>HIKEWORLD</h1>
     </div>
    </div>   
    <div class="right-side">
-    <p>Hi, this is not a real sign-up page, but please try it and give a feedback!!</p>
+    <div class="top">
+    <p>Hi, do you want to explore the world of hiking? if the answer is yes, create an account in our site to see the best mountains to visit and connect with other hikers!</p>
+    </div>
     <div class="form">
         <form>
-            <legend>Fill the form to sign up!</legend>
-            <div class="form-row">
-                <label for="firstname">First Name</label>
-                <input type="text" name="firstname" id="firstname">
-                <label for="lastname">Last Name</label>
-                <input type="text" name="lastname" id="lastname">
-            </div>
-            <div class="form-row">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-                <label for="phonenumber">Phone Number</label>
-                <input type="tel" name="phonenumber" id="phonenumber">
-            </div>
-            <div class="form-row">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">
-                <label for="confirmation">Confirm Password</label>
-                <input type="password" name="confirmation" id="confirmation">
+            <legend>Fill the form to sign up! * means it's required</legend>
+            <div class="form-container">
+                <div class="form-row">
+                    <label for="firstname">First Name*</label>
+                    <input type="text" name="firstname" id="firstname" required>
+                </div>    
+                <div class="form-row">
+                    <label for="lastname">Last Name*</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" name="phonenumber" id="phonenumber">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password*</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-row">
+                    <label for="confirmation">Confirm Password*</label>
+                    <input type="password" name="confirmation" id="confirmation" required>
+                </div>
             </div>
             <div class="submit">
                 <button type="submit">Create Account</button>
             </div>
         </form>
     </div>
+    <div class="log-in">
     <p>Already have an account?<a href="">Log in</a></p>
+    </div>
    </div>
 </body>
 </html>
