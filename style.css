@@ -1,0 +1,39 @@
+@font-face {
+    font-family: MPLUS1p-light;
+    src: url(M_PLUS_1p/MPLUS1p-Light.ttf);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.left-side{
+    width: 40%;
+    background-image: url(imgs/Image\ Background\ Orange\ Minimal\ Phone\ Wallpaper.png);
+    font-family: MPLUS1p-light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+}
+.background{
+    height: 350px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side{
+    width: 60%;
+}
